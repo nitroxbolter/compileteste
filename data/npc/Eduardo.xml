@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Eduardo" script="eduardo.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="114" body="119" legs="114" feet="114" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Olá! Digite {hi} para falar comigo."/>
+        <parameter key="module_shop" value="1" />
+        <parameter key="shop_buyable" value="
+            health potion, 7618, 25;
+            mana potion, 7620, 25;
+            great health potion, 8472, 95;
+            great mana potion, 8473, 60;
+            meat, 2666, 5;
+            fish, 2667, 7;
+            brown mushroom, 2789, 6 " />
+        <parameter key="shop_sellable" value="
+            health potion, 7618, 25;
+            mana potion, 7620, 25;
+            great health potion, 8472, 95;
+            great mana potion, 8473, 60;
+            meat, 2666, 5;
+            fish, 2667, 7;
+            brown mushroom, 2789, 6 " />
+    </parameters>
+</npc>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="Server Save" time="08:00:00" script="serversave.lua" />
+	<globalevent name="save" interval="3600000" script="save.lua"/>
+
+
+
+	
+
+	<!-- Rent Horses -->
+	<globalevent name="RentedMounts" interval="15000" script="others/checkMount.lua" />
+
+	
+	<!--Boosted Creatures-->
+	<globalevent name="BoostedCreature" type="startup" script="boosted/daily-monster.lua" />
+	<globalevent name="BoostedBoss" type="startup" script="boosted/daily-boss.lua" />
+	
+</globalevents>

@@ -17,7 +17,7 @@ jobs:
       - name: Install vcpkg
         uses: lukka/run-vcpkg@v11
         with:
-          vcpkgGitCommitId: master
+          vcpkgGitCommitId: 5f586c1f9b28e8a22db5c40a424165e05d8b1b44
 
       - name: Configure (CMake)
         run: |
